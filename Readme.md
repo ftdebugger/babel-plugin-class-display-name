@@ -1,4 +1,4 @@
-# babel-plugin-class-display-name
+# babel-plugin-class-display-name [![Build Status](https://travis-ci.org/ftdebugger/babel-plugin-class-display-name.svg?branch=master)](https://travis-ci.org/ftdebugger/babel-plugin-class-display-name)
 
 Add displayName property to class constructors to prevent it lost during minification
 
