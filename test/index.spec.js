@@ -6,7 +6,6 @@ describe('babel plugin class displayName', function () {
 
     it('should transform code', function () {
         var output = babel.transformFileSync(__dirname + '/fixtures/SimpleClass.js', {
-            presets: ['es2015'],
             plugins: [require.resolve('../src/index.js')]
         });
 
