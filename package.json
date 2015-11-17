@@ -1,12 +1,12 @@
 {
   "name": "babel-plugin-class-display-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add displayName propery to classes to prevent lost information during name mangling",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register"
   },
-  "author": "",
+  "author": "Evgeny Shpilevsky <evgeny@shpilevsky.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.1.21",
