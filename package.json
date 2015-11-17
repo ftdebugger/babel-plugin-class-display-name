@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-class-display-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add displayName propery to classes to prevent lost information during name mangling",
   "main": "src/index.js",
   "scripts": {
