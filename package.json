@@ -2,13 +2,20 @@
   "name": "babel-plugin-class-display-name",
   "version": "2.0.0",
   "description": "Add displayName propery to classes to prevent lost information during name mangling",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "prepublish": "npm run test",
+    "build": "babel src --out-dir build",
+    "test": "npm run build && mocha"
   },
   "author": "Evgeny Shpilevsky <evgeny@shpilevsky.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ftdebugger/babel-plugin-class-display-name.git"
+  },
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.9.0",
     "babel-core": "^6.1.21",
     "babel-preset-es2015": "^6.1.18",
     "chai": "^3.4.1",
