@@ -8,7 +8,7 @@ export default function ({types, template}) {
                     DISPLAY_NAME: types.stringLiteral(path.node.id.name)
                 });
 
-                path.parentPath.insertAfter(ast);
+                path.insertAfter(ast);
             }
         }
     };

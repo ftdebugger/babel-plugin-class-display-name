@@ -9,9 +9,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var abc = {};
 abc.test = 123;
 
-var SimpleClass = class SimpleClass {
-  constructor() {}
-
+var SimpleClass = function SimpleClass() {
+  _classCallCheck(this, SimpleClass);
 };
-exports.default = SimpleClass;
+
 SimpleClass.displayName = "SimpleClass";
+exports.default = SimpleClass;
