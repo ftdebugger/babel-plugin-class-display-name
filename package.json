@@ -4,9 +4,9 @@
   "description": "Add displayName propery to classes to prevent lost information during name mangling",
   "main": "build/index.js",
   "scripts": {
-    "prepublish": "npm run test",
+    "prepublish": "npm run build && npm run test",
     "build": "babel src --out-dir build",
-    "test": "npm run build && mocha"
+    "test": "mocha"
   },
   "author": "Evgeny Shpilevsky <evgeny@shpilevsky.com>",
   "repository": {
